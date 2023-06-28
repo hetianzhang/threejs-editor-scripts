@@ -1,7 +1,9 @@
-## usecase example for threejs editor
+# Threejs Editor Scripts and Examples
 
 This is an illustrative example to showcase scripts writing and add more module
 to three.js editor.
+
+## usecase example for threejs editor
 
 You need to add OrbitControls Module, by default, OrbitControls Module is not included in the three.js editor.
 
@@ -9,7 +11,7 @@ You need to add OrbitControls Module, by default, OrbitControls Module is not in
 2. import example from the json file without any scripts
 3. copy and save the scripts to the corresponding object and entities in the scene
 
-# JS Code Snippets
+## JS Code Snippets
 
 init-add-audio
 ```
@@ -32,10 +34,8 @@ update-rotate-y
 rotate pivot and marble box under the head statue
 ```
 
-update physicalWorld.stepSimulation minimal demo
+update physicalWorld.stepSimulation 
 ```
-function update( event ) {
-	player.physicalWorld.stepSimulation(event.delta, 10);
-}
+set minimal simulation delta
+``
 
-```
