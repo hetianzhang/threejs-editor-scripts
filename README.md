@@ -8,8 +8,8 @@ to three.js editor.
 You need to add OrbitControls Module, by default, OrbitControls Module is not included in the three.js editor.
 
 1. open https://threejs.org/editor/
-2. import example from the json file without any scripts
-3. copy and save the scripts to the corresponding object and entities in the scene
+2. import example from the json file in ./examples/ 
+3. copy and save the scripts to the corresponding object and entities in the scene at the editor bottom right
 
 ## JS Code Snippets
 
